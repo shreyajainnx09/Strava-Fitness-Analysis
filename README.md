@@ -1,17 +1,42 @@
-# Fitness Tracker Analytics
+# 🏃‍♀️ Strava Fitness Analysis
 
-An end-to-end data analytics project exploring fitness tracker data — from raw CSVs to a published interactive dashboard. Built by Shreya Jain.
+### Turning wearable fitness data into actionable insights with Python, SQL & Tableau
 
-## Overview
+<p align="center">
 
-This project analyzes activity, sleep, and calorie data from the [FitBit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit) dataset (Kaggle, CC0 public domain) to uncover patterns in daily and hourly activity, and the relationship between steps, calories, and sleep.
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 
-## Workflow
+</p>
 
-**Python (Google Colab)** → **SQL (MySQL)** → **Tableau (dashboard)**
+<p align="center">
 
-1. **Python** — Cleaned raw CSVs with pandas: converted date/time columns, removed duplicates, checked for missing values, and merged hourly activity tables.
-2. **SQL** — Loaded cleaned data into a MySQL database and wrote queries to find the most active users, day-of-week trends, steps-vs-sleep relationships, and user activity segments.
-3. **Tableau** — Built an interactive dashboard with three visualizations, connected live to the cleaned datasets.
+<a href="https://public.tableau.com/app/profile/shreya.jain4118/viz/Book1_17874683186530/Dashboard1">
+<img src="https://img.shields.io/badge/📊%20VIEW%20INTERACTIVE%20TABLEAU%20DASHBOARD-E97627?style=for-the-badge" />
+</a>
 
-## Repository structure
+</p>
+
+---
+
+## 📌 Project Overview
+
+This project explores wearable fitness-tracker data to understand **when, how, and how much users are physically active**.
+
+The analysis takes raw fitness data through a complete data analytics pipeline:
+
+```text
+Raw Fitness Data
+       ↓
+Data Cleaning & Preparation
+       ↓
+Python Exploratory Data Analysis
+       ↓
+MySQL / SQL Analysis
+       ↓
+Tableau Visualization
+       ↓
+Actionable Insights
